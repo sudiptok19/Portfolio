@@ -10,11 +10,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <SplineBot />
-      <Navbar />
-      <Hero />
-      
+    <>      
+      <div className='main'><Hero /></div>
     </>
   )
 }
