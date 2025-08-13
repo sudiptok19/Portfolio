@@ -4,16 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Hero from './Components/Hero/Hero.jsx'
+import SplineBot from './Components/SplineBot/SplineBot.jsx'
+import Spline from '@splinetool/react-spline'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <SplineBot />
       <Navbar />
       <Hero />
-      <div>
-        <body> this is a page</body>
-      </div>
+      
     </>
   )
 }

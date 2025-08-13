@@ -1,7 +1,8 @@
 .hero-container {
+  position:relative;
   display: flex;
   justify-content: left;
-  padding-left:70px;
+  padding-left:140px;
   margin-top: -100px;
   align-items: center;
   height: 100vh;       /* full viewport height */
@@ -9,6 +10,7 @@
   background: #0b0b15; /* dark background */
   color: white;
   text-align: center;
+  
 }
 
 .hero-content {
