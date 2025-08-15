@@ -11,8 +11,9 @@ function App() {
 
   return (
     <>      
-    <Navbar />
-      <div className='main'><Hero /></div>
+      <Navbar />
+      <Hero />
+      
     </>
   )
 }
